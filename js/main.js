@@ -3,17 +3,13 @@ function randomNumber (min, max) {
     let rand = min + Math.random() * (max + 1 - min);
     return Math.floor(rand);
   } else {
-    console.log("Введите верное значение")
-  }
-}
-console.log(randomNumber(8, 15));
+    return -1;
+  };
+};
+
 
 function stringLength (str, maxLength){
-  if (maxLength <= 140){
-    return true;
-  } else {
-    return false;
-  }
-}
+  return str <= maxLength;
+};
 
-console.log(stringLength(1, 110))
+
