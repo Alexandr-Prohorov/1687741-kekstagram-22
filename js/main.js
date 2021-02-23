@@ -4,12 +4,14 @@ function randomNumber (min, max) {
     return Math.floor(rand);
   } else {
     return -1;
-  };
-};
+  }
+}
 
 
 function stringLength (str, maxLength){
   return str <= maxLength;
-};
+}
 
+stringLength;
+randomNumber;
 
