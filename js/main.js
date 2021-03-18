@@ -8,7 +8,7 @@ function randomNumber (min, max) {
 }
 
 function stringLength (str, maxLength){
-  return str <= maxLength;
+  return str.length <= maxLength;
 }
 
 stringLength;
