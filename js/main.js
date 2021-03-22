@@ -66,4 +66,4 @@ for (let i = 0; i <= objects.lenght - 2; i++) {
   }
 }
 
-console.log(objects)
+
