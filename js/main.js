@@ -11,8 +11,6 @@ function stringLength (str, maxLength){
   return str.length <= maxLength;
 }
 
-stringLength;
-
 let objects = []
 
 let userComments = [ 'Всё отлично!',
@@ -65,5 +63,3 @@ for (let i = 0; i <= objects.lenght - 2; i++) {
     }
   }
 }
-
-
